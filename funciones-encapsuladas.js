@@ -64,7 +64,7 @@ function calcularPerimetroCuadrado() {
     const value = input.value;
 
     const perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+    // alert(perimetro);
 };
 
 function calcularAreaCuadrado() {
