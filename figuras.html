@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Figuras <span>Geometricas</span> </h1>
+    </header>
+    
+    <div class="container">
+
+        <section class="square">
+            <h2>¡Vamos a calcular un <span>Cuadrado</span>!</h2>
+            <img src="./img/Squid game mask - square.svg" alt="">
+            <form action="">
+                <label for="InputCuadrado">Ingresa la medida de los lados del cuadrado y presiona el boton “calcular” para obtener el area y el perimetro.</label>
+                <input id="InputCuadrado" type="number" placeholder="Ingresa los lados">
+                <div class="button-square">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="triangle">
+            <h2>¡Vamos a calcular el área y perímetro de un <span>Triángulo</span>!</h2>
+            <img src="./img/Squid game mask - triangle.svg" alt="">
+            <form action="">
+                <label for="InputTriangulo">Ingresa las medidas del triángulo</label>
+                <div class="input-triangle">
+                    <input id="InputTrianguloLado1" type="number" placeholder="Lado1">
+                    <input id="InputTrianguloLado2" type="number" placeholder="Lado1">
+                    <input id="InputTrianguloBase" type="number" placeholder="Base">
+                    <input id="InputTrianguloAltura" type="number" placeholder="Altura">
+                </div>
+                <div class="button-triangle">
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="circle">
+            <h2>¡Vamos a calcular un <span>Circulo</span>!</h2>
+            <img src="./img/Squid game mask - circle.svg" alt="">
+            <form action="">
+                <label for="InputCirculo">Escribe tu radio </label>
+                <input id="InputCirculo" type="number" placeholder="Radio">
+                <div class="button-circle">
+                    <button type="button" onclick="calcularDiametroCirculo()">Calcular el diametro</button>
+                    <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="./funciones-encapsuladas.js"></script>
+</body>
+</html>

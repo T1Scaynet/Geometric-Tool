@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: "squid-game";
+    src: url(./font/Game\ Of\ Squids\ 400.otf) format("truetype");
+}
+
+body {
+    height: 100vh;
+    padding: 20px;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header h1 {
+    color: white;
+    font-family: "squid-game";
+}
+
+header span {
+    color: #FF577F;
+    font-family: "squid-game";
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+/* Star Square */
+.container .square {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(132.97deg, rgba(255, 255, 255, 0.34) 2.84%, rgba(243, 243, 243, 0.03) 99.04%);
+    backdrop-filter: blur(9px);
+    border-radius: 20px;
+}
+
+.container .square h2 {
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.container .square span {
+    color: #FF577F;
+}
+
+.container .square img {
+    width: 200px;
+    margin: -13px;
+}
+
+.container .square form {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container .square form label {
+    color: white;
+    padding: 25px;
+}
+
+.container .square form input {
+    width: 260px;
+    height: 52px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .square .button-square {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-square button {
+    color: white;
+    background: #FF577F;
+    border: none;
+    width: 160px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* End Square */
+
+/* Star Triangle */
+.container .triangle {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(132.97deg, rgba(255, 255, 255, 0.34) 2.84%, rgba(243, 243, 243, 0.03) 99.04%);
+    backdrop-filter: blur(9px);
+    border-radius: 20px;
+}
+
+.container .triangle h2 {
+    color: white;
+    text-align: center;
+    padding: 25px 0px 25px 0;
+}
+
+.container .triangle span {
+    color: #FF577F;
+}
+
+.container .triangle img {
+    width: 200px;
+}
+
+.container .triangle form {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container .triangle .input-triangle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.container .triangle form label {
+    color: white;
+    padding: 25px;
+}
+
+.container .triangle form input {
+    width: 260px;
+    height: 52px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .triangle .button-triangle {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-triangle button {
+    color: white;
+    background: #FF577F;
+    border: none;
+    width: 160px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* End Triangle */
+
+/* Star Circle */
+.container .circle {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(132.97deg, rgba(255, 255, 255, 0.34) 2.84%, rgba(243, 243, 243, 0.03) 99.04%);
+    backdrop-filter: blur(9px);
+    border-radius: 20px;
+}
+
+.container .circle h2 {
+    color: white;
+}
+
+.container .circle span {
+    color: #FF577F;
+}
+
+.container .circle img {
+    width: 200px;
+    margin: -33px;
+}
+
+.container .circle form {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container .circle form label {
+    color: white;
+    padding: 25px;
+}
+
+.container .circle form input {
+    width: 260px;
+    height: 52px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .circle .button-circle {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button-circle button {
+    color: white;
+    background: #FF577F;
+    border: none;
+    width: 160px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* End Circle */
