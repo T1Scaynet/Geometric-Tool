@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 header h1 {
@@ -80,6 +80,10 @@ header span {
     border: none;
     font-size: 18px;
     text-align: center;
+}.square p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .container .square .button-square {
@@ -174,6 +178,12 @@ header span {
     border-radius: 10px;
     font-size: 18px;
 }
+
+.triangle p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+}
 /* End Triangle */
 
 /* Star Circle */
@@ -235,5 +245,11 @@ header span {
     height: 52px;
     border-radius: 10px;
     font-size: 18px;
+}
+
+.circle p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
 }
 /* End Circle */
